@@ -1,0 +1,48 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  freeze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Remove previous build
+        run: rm -rf web/build/*
+
+      - name: Install dependencies
+        run: pip install -r web/requirements.txt
+
+      - name: Freeze Flask website
+        run: python web/freeze.py
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'web/build/'
+  deploy:
+    needs: freeze
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      pages: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+  
+    
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

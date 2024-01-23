@@ -1,0 +1,707 @@
+[General]
+
+  [[General.Languages]]
+  name = "ALIRE"
+  ecosystem = "Ada"
+  repo_url = "https://github.com/alire-project/alire"
+  homepage_url = "https://alire.ada.dev/crates.html"
+  discussion_channel = "https://gitter.im/ada-lang/Alire"
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Basalt"
+  ecosystem = "Bash"
+  repo_url = "https://github.com/bash-bastion/basalt"
+  homepage_url = "https://bash-bastion.github.io/basalt/"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "nyssa"
+  ecosystem = "Blade"
+  repo_url = "https://github.com/blade-lang/nyssa"
+  homepage_url = "https://nyssa.bladelang.com"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "clib"
+  ecosystem = "C"
+  repo_url = "https://github.com/clibs/clib"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Conan"
+  ecosystem = "C and C++"
+  repo_url = "https://github.com/conan-io/conan"
+  homepage_url = "https://conan.io"
+  discussion_channel = "https://cpplang-inviter.cppalliance.org/ #conan channel"
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "mason"
+  ecosystem = "C and C++"
+  repo_url = "https://github.com/mapbox/mason"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "vcpkg"
+  ecosystem = "C and C++"
+  repo_url = "https://github.com/microsoft/vcpkg"
+  homepage_url = "https://vcpkg.io"
+  discussion_channel = "https://www.includecpp.org/discord/"
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "buckaroo"
+  ecosystem = "C++"
+  repo_url = "https://github.com/LoopPerfect/buckaroo"
+  homepage_url = "https://buckaroo.pm"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "poac"
+  ecosystem = "C++"
+  repo_url = "https://github.com/poac-dev/poac"
+  homepage_url = "https://poac.dev"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Leiningen"
+  ecosystem = "Clojure"
+  repo_url = "https://codeberg.org/leiningen/leiningen"
+  homepage_url = "https://leiningen.org"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "shards"
+  ecosystem = "Crystal"
+  repo_url = "https://github.com/crystal-lang/shards"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "dub"
+  ecosystem = "D"
+  repo_url = "https://github.com/dlang/dub"
+  homepage_url = "https://dub.pm"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "pub"
+  ecosystem = "Dart"
+  repo_url = "https://github.com/dart-lang/pub"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "DPM"
+  ecosystem = "Delphi"
+  repo_url = "https://github.com/DelphiPackageManager/DPM"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Deno"
+  ecosystem = "Deno"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Trex"
+  ecosystem = "Deno"
+  repo_url = "https://github.com/crewdevio/Trex"
+  homepage_url = "https://crewdevio.mod.land/projects/Trex"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Elm PM"
+  ecosystem = "Elm"
+  repo_url = ""
+  homepage_url = "https://elm-lang.org/news/package-manager"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Hex"
+  ecosystem = "Erlang"
+  repo_url = "https://github.com/hexpm/hex"
+  homepage_url = "https://hex.pm"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Airship"
+  ecosystem = "Flat"
+  repo_url = "https://github.com/FlatLang/Airship"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "f"
+  ecosystem = "Forth"
+  repo_url = "https://github.com/GeraldWodni/f"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Fortran PM"
+  ecosystem = "Fortran"
+  repo_url = "https://github.com/fortran-lang/fpm"
+  homepage_url = "https://fpm.fortran-lang.org"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Pkg.go.dev"
+  ecosystem = "Go"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Cabal"
+  ecosystem = "Haskell"
+  repo_url = "https://github.com/haskell/cabal"
+  homepage_url = "https://www.haskell.org/cabal/"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "haxelib"
+  ecosystem = "Haxe"
+  repo_url = "https://github.com/HaxeFoundation/haxelib"
+  homepage_url = "https://lib.haxe.org"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Elba"
+  ecosystem = "Idris"
+  repo_url = "https://github.com/elba/elba"
+  homepage_url = "https://elba.pub"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "sirdi"
+  ecosystem = "Idris"
+  repo_url = "https://github.com/eayus/sirdi"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "eerie"
+  ecosystem = "Io"
+  repo_url = "https://github.com/IoLanguage/eerie"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Entropic"
+  ecosystem = "JavaScript"
+  repo_url = "https://github.com/entropic-dev/entropic"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "npm"
+  ecosystem = "JavaScript"
+  repo_url = "https://github.com/npm/cli"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Npm"
+
+  [[General.Languages]]
+  name = "nypm"
+  ecosystem = "JavaScript"
+  repo_url = "https://github.com/unjs/nypm"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "pnpm"
+  ecosystem = "JavaScript"
+  repo_url = "https://github.com/pnpm/pnpm"
+  homepage_url = "https://pnpm.io"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "yarn"
+  ecosystem = "JavaScript"
+  repo_url = "https://github.com/yarnpkg/berry"
+  homepage_url = "https://yarnpkg.com"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Yarn_(package_manager)"
+
+  [[General.Languages]]
+  name = "Julia"
+  ecosystem = "Julia"
+  repo_url = "https://github.com/JuliaLang/Pkg.jl"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "LuaRocks"
+  ecosystem = "Lua"
+  repo_url = "https://github.com/luarocks/luarocks"
+  homepage_url = "https://luarocks.org"
+  discussion_channel = "https://gitter.im/luarocks/luarocks"
+  wikipedia_url = "https://en.wikipedia.org/wiki/LuaRocks"
+
+  [[General.Languages]]
+  name = "mops"
+  ecosystem = "Motoko"
+  repo_url = "https://github.com/ZenVoich/mops"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "vessel"
+  ecosystem = "Motoko"
+  repo_url = "https://github.com/dfinity/vessel"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "NuGet"
+  ecosystem = ".NET"
+  repo_url = "https://github.com/NuGet/NuGet.Client"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Nimble"
+  ecosystem = "Nim"
+  repo_url = "https://github.com/nim-lang/nimble"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "opam"
+  ecosystem = "OCaml"
+  repo_url = "https://github.com/ocaml/opam"
+  homepage_url = "https://opam.ocaml.org"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "CPAN"
+  ecosystem = "Perl"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/CPAN"
+
+  [[General.Languages]]
+  name = "Composer"
+  ecosystem = "PHP"
+  repo_url = "https://github.com/composer/composer"
+  homepage_url = "https://getcomposer.com"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Composer_(software)"
+
+  [[General.Languages]]
+  name = "pip"
+  ecosystem = "Python"
+  repo_url = "https://github.com/pypa/pip"
+  homepage_url = "https://pip.pypa.io"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Pip_(package_manager)"
+
+  [[General.Languages]]
+  name = "PyPM"
+  ecosystem = "Python"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Python_Package_Manager"
+
+  [[General.Languages]]
+  name = "rye"
+  ecosystem = "Python"
+  repo_url = "https://github.com/mitsuhiko/rye"
+  homepage_url = "https://rye-up.com"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "pdm"
+  ecosystem = "Python"
+  repo_url = "https://github.com/pdm-project/pdm"
+  homepage_url = "https://pdm.fming.dev/latest/"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Huak"
+  ecosystem = "Python "
+  repo_url = "https://github.com/cnpryer/huak"
+  homepage_url = "cnpryer.github.io/huak/user_guide/"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Poetry"
+  ecosystem = "Python"
+  repo_url = "https://github.com/python-poetry/poetry"
+  homepage_url = "https://python-poetry.org"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "R"
+  ecosystem = "R"
+  repo_url = ""
+  homepage_url = "https://cran.r-project.org/doc/manuals/r-release/R-admin.html#Installing-packages"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "jetpack"
+  ecosystem = "R"
+  repo_url = "https://github.com/ankane/jetpack"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Raco"
+  ecosystem = "Racket"
+  repo_url = ""
+  homepage_url = "https://docs.racket-lang.org/pkg/index.html"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Pakku"
+  ecosystem = "Raku"
+  repo_url = "https://github.com/hythm7/Pakku"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Zef"
+  ecosystem = "Raku"
+  repo_url = "https://github.com/ugexe/zef"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "RingPM"
+  ecosystem = "Ring"
+  repo_url = ""
+  homepage_url = "https://ring-lang.github.io/doc1.14/ringpm.html"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "RubyGems"
+  ecosystem = "Ruby"
+  repo_url = "https://github.com/rubygems/rubygems"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/RubyGems"
+
+  [[General.Languages]]
+  name = "Cargo"
+  ecosystem = "Rust"
+  repo_url = "https://github.com/rust-lang/cargo"
+  homepage_url = ""
+  discussion_channel = "https://rust-lang.zulipchat.com/#narrow/stream/318791-t-crates-io/"
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Akku.scm"
+  ecosystem = "Scheme"
+  repo_url = "https://gitlab.com/akkuscm/akku"
+  homepage_url = "https://akkuscm.org"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Swift PM"
+  ecosystem = "Swift"
+  repo_url = "https://github.com/apple/swift-package-manager"
+  homepage_url = "https://www.swift.org/package-manager/"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "Ice"
+  ecosystem = "Swift"
+  repo_url = "https://github.com/jakeheis/Ice"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "mint"
+  ecosystem = "Swift"
+  repo_url = "https://github.com/yonaskolb/Mint"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "vpkg"
+  ecosystem = "V"
+  repo_url = "https://github.com/vpkg-project/vpkg"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "vpm"
+  ecosystem = "V"
+  repo_url = "https://github.com/vlang/vpm"
+  homepage_url = "https://vpm.vlang.io"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "gyro"
+  ecosystem = "Zig"
+  repo_url = "https://github.com/mattnite/gyro"
+  homepage_url = "astrolabe.pm"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.Languages]]
+  name = "zigmod"
+  ecosystem = "Zig"
+  repo_url = "https://github.com/nektro/zigmod"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.System]]
+  name = "Spack"
+  ecosystem = ""
+  repo_url = "https://github.com/spack/spack"
+  homepage_url = "https://www.spack.io"
+  discussion_channel = "https://slack.spack.io/"
+  wikipedia_url = ""
+
+  [[General.System]]
+  name = "Nix"
+  ecosystem = ""
+  repo_url = ""
+  homepage_url = "https://nixos.org"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Nix_(package_manager)"
+
+  [[General.System]]
+  name = "GNU Guix"
+  ecosystem = ""
+  repo_url = ""
+  homepage_url = "https://guix.gnu.org/en/"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/GNU_Guix"
+
+  [[General.System]]
+  name = "Homebrew"
+  ecosystem = "Linux and macOS"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Homebrew_(package_manager)"
+
+  [[General.System]]
+  name = "apt"
+  ecosystem = "Linux"
+  repo_url = ""
+  homepage_url = "https://wiki.debian.org/Apt"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/APT_(software)"
+
+  [[General.System]]
+  name = "tea"
+  ecosystem = ""
+  repo_url = ""
+  homepage_url = "https://tea.xyz"
+  discussion_channel = "https://discord.tea.xyz/"
+  wikipedia_url = ""
+
+  [[General.System]]
+  name = "Scoop PM"
+  ecosystem = "Windows"
+  repo_url = "https://github.com/ScoopInstaller/Scoop"
+  homepage_url = "https://scoop.sh"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Scoop_Package_Manager"
+
+  [[General.System]]
+  name = "baulk"
+  ecosystem = "Windows"
+  repo_url = "https://github.com/baulk/baulk"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.System]]
+  name = "Chocolatey"
+  ecosystem = "Windows"
+  repo_url = "https://github.com/chocolatey/choco"
+  homepage_url = "https://chocolatey.org"
+  discussion_channel = "https://discord.com/invite/HfeWSAcjXM"
+  wikipedia_url = "https://en.wikipedia.org/wiki/Chocolatey"
+
+  [[General.System]]
+  name = "Windows PM"
+  ecosystem = "Windows"
+  repo_url = "https://github.com/microsoft/winget-cli"
+  homepage_url = "https://learn.microsoft.com/en-us/windows/package-manager/"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Windows_Package_Manager"
+
+  [[General.System]]
+  name = "Novus"
+  ecosystem = "Windows"
+  repo_url = "https://github.com/novus-package-manager/novus"
+  homepage_url = "https://novuspkg.com"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.System]]
+  name = "ruckzuck"
+  ecosystem = "Windows"
+  repo_url = "https://github.com/rzander/ruckzuck"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.System]]
+  name = "Dpkg"
+  ecosystem = "Unix-like"
+  repo_url = "https://git.dpkg.org/cgit/dpkg/dpkg.git"
+  homepage_url = "https://wiki.debian.org/Teams/Dpkg"
+  discussion_channel = "#debian-dpkg on irc.debian.org"
+  wikipedia_url = "https://en.wikipedia.org/wiki/Dpkg"
+
+  [[General.System]]
+  name = "Flatpak"
+  ecosystem = "Linux"
+  repo_url = "https://github.com/flatpak/flatpak"
+  homepage_url = "https://docs.flatpak.org/en/latest/introduction.html#terminology"
+  discussion_channel = "https://matrix.to/#/#flatpak:matrix.org"
+  wikipedia_url = "https://en.wikipedia.org/wiki/Flatpak"
+
+  [[General.System]]
+  name = "Pacman"
+  ecosystem = "Arch Linux"
+  repo_url = "https://gitlab.archlinux.org/pacman/pacman"
+  homepage_url = "https://wiki.archlinux.org/title/Pacman"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Arch_Linux#Pacman"
+
+  [[General.System]]
+  name = "RPM"
+  ecosystem = "Linux"
+  repo_url = "https://github.com/rpm-software-management/rpm"
+  homepage_url = "https://rpm.org/"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/RPM_Package_Manager"
+
+  [[General.System]]
+  name = "dnf"
+  ecosystem = "Linux"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/DNF_(software)"
+
+  [[General.System]]
+  name = "yum"
+  ecosystem = "Linux"
+  repo_url = ""
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Yum_(software)"
+
+  [[General.System]]
+  name = "portage"
+  ecosystem = "Linux"
+  repo_url = ""
+  homepage_url = "https://wiki.gentoo.org/wiki/Project:Portage"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Portage_(software)"
+
+[Integrated]
+
+  [[Integrated.IDE]]
+  name = "pack"
+  ecosystem = "vim"
+  repo_url = "https://github.com/maralla/pack"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[Integrated.DAW]]
+  name = "ReaPack"
+  ecosystem = "REAPER"
+  repo_url = "https://github.com/cfillion/reapack"
+  homepage_url = "https://reapack.com"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[Integrated.DAW]]
+  name = "Ableton PM"
+  ecosystem = "Ableton"
+  repo_url = "https://github.com/thereplicants/ableton-package-manager"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[Integrated.Other]]
+  name = "bzlmod"
+  ecosystem = "Bazel"
+  repo_url = ""
+  homepage_url = "https://bazel.build/external/overview#bzlmod"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[Integrated.Other]]
+  name = "trunk"
+  ecosystem = "Postgres"
+  repo_url = "https://github.com/tembo-io/trunk"
+  homepage_url = "https://tembo-io.github.io/trunk/"
+  discussion_channel = "https://join.slack.com/t/trunk-community/shared_invite/zt-1yiafma92-hFHq2xAN0ukjg_2AsOVvfg"
+  wikipedia_url = ""
+
+  [[Integrated.Other]]
+  name = "buffrs"
+  ecosystem = "Protobuf"
+  repo_url = "https://github.com/helsing-ai/buffrs"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""

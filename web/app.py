@@ -1,0 +1,26 @@
+from flask import Flask, render_template
+import toml
+import os
+import sys
+
+app = Flask(__name__)
+
+web_dir = os.path.dirname(os.path.realpath(__file__))
+landscape_file_path = os.path.join(web_dir, '..', 'landscape.toml')
+
+with open(landscape_file_path, 'r') as f:
+    landscape = toml.load(f)
+
+# Count Package Managers included in landscape
+pmcount=0
+for category in landscape:
+    for ecosystems in landscape[category]:
+        for item in landscape[category][ecosystems]:
+            pmcount+=1
+
+@app.route("/")
+def index():
+    return render_template('index.html', landscape=landscape, pmcount=pmcount)
+
+if __name__ == '__main__':
+    app.run(debug=False)
