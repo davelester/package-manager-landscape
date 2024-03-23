@@ -705,3 +705,11 @@
   homepage_url = ""
   discussion_channel = ""
   wikipedia_url = ""
+
+  [[Integrated.Other]]
+  name = "Helm"
+  ecosystem = "Kubernetes"
+  repo_url = "https://github.com/helm/helm"
+  homepage_url = "http://helm.sh"
+  discussion_channel = ""
+  wikipedia_url = "https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation#Helm"
