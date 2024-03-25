@@ -713,3 +713,11 @@
   homepage_url = "http://helm.sh"
   discussion_channel = ""
   wikipedia_url = "https://en.wikipedia.org/wiki/Cloud_Native_Computing_Foundation#Helm"
+
+  [[Integrated.Other]]
+  name = "Chromebrew"
+  ecosystem = "Chrome OS"
+  repo_url = "https://github.com/chromebrew/chromebrew"
+  homepage_url = "https://chromebrew.github.io"
+  discussion_channel = ""
+  wikipedia_url = ""
