@@ -505,6 +505,14 @@
   wikipedia_url = ""
 
   [[General.System]]
+  name = "Chef Cookbooks"
+  ecosystem = "Ruby"
+  repo_url = ""
+  homepage_url = "https://docs.chef.io/cookbooks/"
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[General.System]]
   name = "Spack"
   ecosystem = ""
   repo_url = "https://github.com/spack/spack"
