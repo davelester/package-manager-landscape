@@ -1,3 +1,4 @@
 Flask==3.0.1
 Frozen-Flask==1.0.1
 toml==0.10.2
+markdown==3.6
