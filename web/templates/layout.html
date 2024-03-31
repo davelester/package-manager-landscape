@@ -10,13 +10,10 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand icon-link" href="/"><img src="{{ url_for('static', filename='img/box-seam.svg') }}" alt="Box Seam Icon" width="32" height="32">Package Manager Landscape</a>
+          <a class="navbar-brand icon-link" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='img/box-seam.svg') }}" alt="Box Seam Icon" width="32" height="32">Package Manager Landscape</a>
           <ul class="navbar-nav nav justify-content-end">
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="/contribute/">Contribute</a>
+              <a class="nav-link" href="{{ url_for('contribute') }}">Contribute</a>
             </li>
           </ul>
         </div>
@@ -35,9 +32,8 @@
         </a>
     
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <!-- <li class="nav-item"><a href="/about/" class="nav-link px-2 text-body-secondary">About</a></li> -->
-          <li class="nav-item"><a href="/contribute/" class="nav-link px-2 text-body-secondary">Contribute</a></li>
+          <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="{{ url_for('contribute') }}" class="nav-link px-2 text-body-secondary">Contribute</a></li>
         </ul>
       </footer>
 </div>
