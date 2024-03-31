@@ -20,7 +20,7 @@ for category in landscape:
             pmcount+=1
 
 # Convert CONTRIBUTING.md to HTML so it can be rendered at /contribute/ route
-with open("../CONTRIBUTING.md", "r", encoding="utf-8") as input_file:
+with open(os.path.join(web_dir, '..', 'CONTRIBUTING.md'), "r", encoding="utf-8") as input_file:
     contribute_md = input_file.read()
     contribute_html = markdown.markdown(contribute_md)
 
