@@ -659,6 +659,14 @@
 [Integrated]
 
   [[Integrated.IDE]]
+  name = "straight.el"
+  ecosystem = "emacs"
+  repo_url = "https://github.com/radian-software/straight.el"
+  homepage_url = ""
+  discussion_channel = ""
+  wikipedia_url = ""
+
+  [[Integrated.IDE]]
   name = "pack"
   ecosystem = "vim"
   repo_url = "https://github.com/maralla/pack"
